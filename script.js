@@ -1,7 +1,7 @@
 let password = document.getElementById("password");
 function genPassword() {
     var chars = "0123456789abcdefghakshSNUAI2425NYfijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var passwordLength = 12;
+    var passwordLength = 15;
     var password = "";
     for (var i = 0; i <= passwordLength; i++) {
         var randomNumber = Math.floor(Math.random() * chars.length);
